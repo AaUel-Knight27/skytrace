@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Python cache & compiled bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv
+.venv/
+venv/
+ENV/
+
+# Large local cache and test artifacts
+raw_cutouts/
+frontend/raw_cutouts/
+*.fits
+test_screenshot.png
+
+# Environment files
+.env
+.env*.local
+
+# IDE / Editor configuration
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Historical reference scaffolding (inert)
+/reference/
+
+# Download artifacts
+*.part
+*.zip

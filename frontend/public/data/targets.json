@@ -1,0 +1,103 @@
+{
+  "targets": [
+    {
+      "id": "m31",
+      "name": "M31 (Andromeda Galaxy) • Discovered Field",
+      "ra": 10.684708,
+      "dec": 41.26875,
+      "size_arcmin": 6.0,
+      "pixscale_arcsec": 3.1,
+      "grid_px": [116, 116],
+      "center_px": [58.0, 58.0],
+      "north_up_east_left": true,
+      "collection_note": "SPHEREx Level-2 verified spectral images via IRSA (QR); cite DOI 10.26131/IRSA652",
+      "dipole": null,
+      "observations": [
+        {
+          "id": "level2_2025W29_2A_0202_1D3_spx_l2b-v20-2025-262",
+          "date_utc": "2025-07-18T07:30:48Z",
+          "mjd": 60874.31306,
+          "pass": 0,
+          "band": "D3",
+          "wavelength_um": 2.2345,
+          "bandwidth_um": 0.0557,
+          "wavelength_source": "wcs-wave",
+          "coverage": 0.76,
+          "group": 1,
+          "image": "img/m31/level2_2025W29_2A_0202_1D3_spx_l2b-v20-2025-262.png",
+          "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W29_2A/l2b-v20-2025-262/3/level2_2025W29_2A_0202_1D3_spx_l2b-v20-2025-262.fits"
+        },
+        {
+          "id": "level2_2026W32_2A_0201_1D3_spx_l2b-v27-2026-223",
+          "date_utc": "2026-08-07T07:21:10Z",
+          "mjd": 61259.30638,
+          "pass": 2,
+          "band": "D3",
+          "wavelength_um": 1.7435,
+          "bandwidth_um": 0.0424,
+          "wavelength_source": "wcs-wave",
+          "coverage": 0.728,
+          "group": 0,
+          "image": "img/m31/level2_2026W32_2A_0201_1D3_spx_l2b-v27-2026-223.png",
+          "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W32_2A/l2b-v27-2026-223/3/level2_2026W32_2A_0201_1D3_spx_l2b-v27-2026-223.fits"
+        }
+      ],
+      "groups": [
+        {
+          "group": 0,
+          "wavelength_um": 1.7435,
+          "passes": [2],
+          "blinkable": false,
+          "observations": ["level2_2026W32_2A_0201_1D3_spx_l2b-v27-2026-223"]
+        },
+        {
+          "group": 1,
+          "wavelength_um": 2.2345,
+          "passes": [0],
+          "blinkable": false,
+          "observations": ["level2_2025W29_2A_0202_1D3_spx_l2b-v20-2025-262"]
+        }
+      ]
+    },
+    {
+      "id": "sedna",
+      "name": "90377 Sedna (Solar System Reference)",
+      "ra": 55.912,
+      "dec": 12.115,
+      "size_arcmin": 6.0,
+      "pixscale_arcsec": 3.1,
+      "grid_px": [116, 116],
+      "center_px": [58.0, 58.0],
+      "north_up_east_left": true,
+      "collection_note": "SPHEREx survey coordinates (No synthetic dipole; verified sky mode)",
+      "dipole": null,
+      "observations": [
+        {
+          "id": "level2_2025W29_2A_0202_1D3_spx_l2b-v20-2025-262",
+          "date_utc": "2025-07-18T07:30:48Z",
+          "mjd": 60874.31306,
+          "pass": 0,
+          "band": "D3",
+          "wavelength_um": 2.2345,
+          "bandwidth_um": 0.0557,
+          "coverage": 0.76,
+          "image": "img/m31/level2_2025W29_2A_0202_1D3_spx_l2b-v20-2025-262.png",
+          "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W29_2A/l2b-v20-2025-262/3/level2_2025W29_2A_0202_1D3_spx_l2b-v20-2025-262.fits"
+        },
+        {
+          "id": "level2_2026W32_2A_0201_1D3_spx_l2b-v27-2026-223",
+          "date_utc": "2026-08-07T07:21:10Z",
+          "mjd": 61259.30638,
+          "pass": 2,
+          "band": "D3",
+          "wavelength_um": 1.7435,
+          "bandwidth_um": 0.0424,
+          "coverage": 0.728,
+          "image": "img/m31/level2_2026W32_2A_0201_1D3_spx_l2b-v27-2026-223.png",
+          "source_url": "https://irsa.ipac.caltech.edu/ibe/data/spherex/qr3/level2/2026W32_2A/l2b-v27-2026-223/3/level2_2026W32_2A_0201_1D3_spx_l2b-v27-2026-223.fits"
+        }
+      ]
+    }
+  ],
+  "generated_utc": "2026-10-30T12:00:00Z"
+}
